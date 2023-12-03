@@ -1,0 +1,8 @@
+Preparaciones para una nueva temporada:
+
+Simular ligas + estructuras en Argentina.
+Actualizar ligas en el excel
+Actualizar ligas en el VSC
+Mercado de pases
+Armar temporada siguiente con la liga correspondiente
+Armar grupos de Champions y rival copa doméstica
