@@ -1,0 +1,58 @@
+.intro{
+    text-align: center;
+}
+
+.info{
+    font-style: italic;
+}
+
+.potencia{
+    background-color: gold;
+}
+
+.superior{
+    background-color: green;
+    color: white;
+}
+
+.normal{
+    background-color: orange;
+}
+
+.inferior{
+    background-color: orangered;
+    color: white;
+}
+
+.oculto{
+    display: none;
+}
+
+.resetear{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 90px;
+}
+
+.jugar{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 90px;
+}
+
+#resultado{
+    font-size: 25px;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+body{
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 49%, rgba(0,212,255,1) 100%);
+}

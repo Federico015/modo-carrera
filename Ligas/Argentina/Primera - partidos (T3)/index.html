@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Simulador</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h2>Simulador de resultados del fútbol argentino</h2>
+
+    <div id="local">
+        <form id="equipo-1">
+            <p>Elegí el equipo local </p>
+                <select name="equipo">
+                    <option value="">Selecciona...</option>
+                    <option value="River Plate" class="potencia">River Plate</option>
+                    <option value="Boca Juniors" class="potencia">Boca Juniors</option>
+                    <option value="Independiente" class="superior">Independiente</option>
+                    <option value="Racing" class="superior">Racing</option>
+                    <option value="San Lorenzo" class="superior">San Lorenzo</option>
+                    <option value="Defensa y Justicia" class="superior">Defensa y Justicia</option>
+                    <option value="Estudiantes LP" class="superior">Estudiantes LP</option>
+                    <option value="Lanús" class="superior">Lanús</option>
+                    <option value="Vélez" class="superior">Vélez</option>
+                    <option value="Argentinos Juniors" class="normal">Argentinos Juniors</option>
+                    <option value="Arsenal" class="normal">Arsenal</option>
+                    <option value="Banfield" class="normal">Banfield</option>
+                    <option value="Colón" class="normal">Colón</option>
+                    <option value="Godoy Cruz" class="normal">Godoy Cruz</option>
+                    <option value="Newell's" class="normal">Newell's</option>
+                    <option value="Talleres" class="normal">Talleres</option>
+                    <option value="Tigre" class="normal">Tigre</option>
+                    <option value="Unión" class="normal">Unión</option>
+                    <option value="Villa Dálmine" class="inferior">Villa Dálmine</option>
+
+                </select>
+                <br>
+                <br>
+            <button id="boton-seleccionar-local">Elegir equipo local</button>
+            </p>
+            <div id="error-local"></div>
+            <div id="equipo-local" class="info"></div>
+        </form>
+    </div>
+
+        <div id="visitante" class="oculto">
+            <form id="equipo-2">
+            <p>Elegí el equipo visitante </p>
+                <select name="equipo" id='lista-de-visitantes'>
+                </select>
+                
+            </p>
+            <button id="boton-seleccionar-visitante">Elegir equipo visitante</button>
+            <br>
+            <br>
+        </form>
+        </div>
+       
+        <div id="equipo-visitante" class="info"></div>
+
+    <br>
+    <br>
+    <button id="boton-jugar-partido" class="oculto">Jugar!</button>
+    
+    <p id="resultado"></p>
+    <footer>
+        <button id="resetear" class="oculto">Resetear</button>
+    </footer>
+    <script src='simulador.js'></script>
+    <script src='interfaz.js'></script>
+</body>
+</html>

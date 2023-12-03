@@ -1,0 +1,46 @@
+body{
+    background: rgb(255, 255, 255);
+    color: rgb(158, 106, 38);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70;
+}
+
+h1{
+    color: rgb(158, 106, 38);
+}
+
+#table{
+    display: table;
+    width: 40%;
+    float: left;
+}
+
+#info-results{
+    display: table;
+    float: right;
+    width: 50%;
+    word-wrap: break-word;
+}
+
+.hidden{
+    display: none;
+}
+
+#winner{
+    border: 3px; 
+    border-style: solid; 
+    border-color: rgb(216, 185, 7);
+    width: fit-content;
+}
+
+.championsLine {
+    border: 1px solid rgb(190, 149, 13);
+    width: 270px;
+    float: left;
+}
+
+br{
+    margin: 0.5em;
+    line-height:0.5em;
+}
